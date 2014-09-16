@@ -1,0 +1,12 @@
+html
+  head
+    link(rel="stylesheet", href="index.css")
+  body
+    h1 Bezier Demo
+    .container
+      canvas#canvas(width="500", height="500")
+      #three(width="500", height="500")
+    script(src="index.js")
+    script
+      :traceur
+        ;(msg => console.log(`Hello from ${msg} !`))('Jade')
