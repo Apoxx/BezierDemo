@@ -1,4 +1,2 @@
-es6-boilerplate
+BezierDemo
 ===============
-
-Express + ES6 + Stylus boilerplate
